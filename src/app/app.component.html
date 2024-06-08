@@ -1,0 +1,19 @@
+<mat-toolbar color="primary">
+    <mat-toolbar-row>
+        
+        <button mat-icon-button class="button" routerLink="/tasks">
+            <mat-icon>home</mat-icon>
+        </button>
+        <span>My Task Manager</span>
+        <button mat-icon-button class="button" routerLink="/filters">
+            <mat-icon>filter_alt</mat-icon>
+        </button>
+        
+        <span class="example-spacer"></span>
+        <div class="logo">
+            <img src="assets/Axtria_Logo.png" alt="Logo">
+        </div>
+    </mat-toolbar-row>
+</mat-toolbar>
+
+<router-outlet></router-outlet>
