@@ -25,3 +25,20 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Functionality
+
+Task-list component-
+    The `TaskListComponent` displays a list of tasks. Each task in the list shows the task name and a "Delete" and "view details" button. Clicking the "Delete" button for a task removes it from the list and deletes it from the task service. Clicking on "view details" button navigates to the `TaskDetailComponent`. Task prioritization is done (e.g., high, medium, low) and tasks displayed in different colors based on their priority. (in a sorted manner)
+
+Task-detail Component-
+    In `TaskDetailComponent`, you can view and edit the task details. The task details should include at least a title and description. The `TaskDetailComponent` have an "Edit" button that allows you to edit the task details. When edited, the changes should be saved using the `TaskService`.
+
+Task-filter Component-
+    Filter by priority and Search functionality to filter tasks by name or description.
+
+Task service- 
+    A service called `Task` is implemented to manage tasks. This service has methods for adding, deleting, updating, and retrieving tasks.
+
+
+ 
